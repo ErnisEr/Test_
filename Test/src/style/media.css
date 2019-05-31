@@ -1,0 +1,30 @@
+@media screen and (max-width:699px){
+    .allWrap{
+        width: 100%;
+    }
+}
+@media screen and (max-width:445px){
+    .cont{
+        flex-direction: column;
+    }
+    .leftContent{
+        width: 100%;
+        height: auto;
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: space-around;
+        padding: 10px 0;
+    }
+    .rightContent{
+        width:100%;
+    }
+    .aliveContent label{
+        margin-bottom: 0    ;
+    }
+    .lang{
+        font-size: .805rem;
+    }
+    .proxyTypeContent label {
+        line-height: 13px;
+    }
+}
